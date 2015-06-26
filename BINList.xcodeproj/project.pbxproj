@@ -31,7 +31,6 @@
 		842BD92B1B3D4E9800B407B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842BD92C1B3D4E9800B407B2 /* BINListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BINListTests.swift; sourceTree = "<group>"; };
 		842BD9361B3D50CE00B407B2 /* BINList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BINList.swift; sourceTree = "<group>"; };
-		842BD93A1B3D67DF00B407B2 /* BINList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BINList.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				842BD91F1B3D4E9700B407B2 /* BINList.h */,
-				842BD93A1B3D67DF00B407B2 /* BINList.playground */,
 				842BD9361B3D50CE00B407B2 /* BINList.swift */,
 				842BD91D1B3D4E9700B407B2 /* Supporting Files */,
 			);
@@ -407,6 +405,7 @@
 				842BD9321B3D4E9800B407B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		842BD9331B3D4E9800B407B2 /* Build configuration list for PBXNativeTarget "BINListTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +414,7 @@
 				842BD9351B3D4E9800B407B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
