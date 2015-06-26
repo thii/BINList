@@ -1,4 +1,4 @@
-// BINListTests.swift
+// BINList.swift
 //
 // Copyright (c) 2015 Thi Doan
 //
@@ -20,16 +20,15 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import UIKit
-import XCTest
-import BINList
+private let apiEndpoint = "http://www.binlist.net/json/"
 
-class BINListTests: XCTestCase {
-    
-    func testBINListRequest() {
-        BINList.find("431940", { (data) -> Void in
-            XCTAssertNotNil(data, "response data should not be nil")
-        })
+public func find(bin: String, completionHandler: (data: String) -> Void) {
+    let url = NSURL(string: apiEndpoint + bin)
+
+    let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
+        let responseString = NSString(data: data, encoding: NSUTF8StringEncoding) as! String
+        completionHandler(data: responseString)
     }
 
+    task.resume()
 }
