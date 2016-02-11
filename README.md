@@ -1,6 +1,6 @@
 # BINList
 [![Build Status](https://travis-ci.org/thii/BINList.svg)](https://travis-ci.org/thii/BINList)
-[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/BINList.svg)](https://img.shields.io/cocoapods/v/BINList.svg)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/BINList.svg)](https://img.shields.io/cocoapods/v/BINList.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 BIN lookup library in Swift.
